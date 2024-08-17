@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro'
+import TriviaGame from '../components/TriviaGame'
+import questions from '../data/questions.json'
+---
+
+<Layout title='Inicio'>
+  <h1 class='text-3xl font-bold mb-8 text-center'>¡Bienvenido a TechQuizz!</h1>
+
+  <div class='text-xl mb-8 text-center max-w-[60ch] mx-auto'>
+    <p>Este juego fue creado como parte de un artículo sobre NanoStore.</p>
+    <p>
+      Puedes leerlo
+      <a
+        class='text-blue-400 hover:text-blue-500 underline'
+        href='https://medium.com/@jhon.jairo.hernandez/nano-store-estado-global-en-astro-734725fe1773'
+        target='_blank'
+        rel='noopener noreferrer'>aquí</a
+      >
+    </p>
+  </div>
+
+  <TriviaGame client:load questions={questions} maxQuestions={8} />
+</Layout>

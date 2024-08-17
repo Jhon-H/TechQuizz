@@ -1,0 +1,227 @@
+[
+  {
+    "question": "¿Qué etiqueta HTML se utiliza para definir una lista desordenada?",
+    "options": ["<ul>", "<ol>", "<li>", "<list>"],
+    "correctAnswer": "<ul>"
+  },
+  {
+    "question": "¿Qué significa CSS?",
+    "options": ["Hojas de Estilo en Cascada", "Hojas de Estilo Creativas", "Hojas de Estilo Coloridas", "Hojas de Estilo Computacionales"],
+    "correctAnswer": "Hojas de Estilo en Cascada"
+  },
+  {
+    "question": "¿Qué método de JavaScript se utiliza para encontrar un elemento por su ID?",
+    "options": ["getElementByClassName", "getElementById", "querySelector", "getElementsByTagName"],
+    "correctAnswer": "getElementById"
+  },
+  {
+    "question": "¿Cuál es la complejidad de tiempo promedio de una búsqueda binaria?",
+    "options": ["O(n)", "O(log n)", "O(n^2)", "O(1)"],
+    "correctAnswer": "O(log n)"
+  },
+  {
+    "question": "¿Qué patrón de diseño se utiliza para restringir la creación de objetos a un solo objeto?",
+    "options": ["Factory", "Singleton", "Observer", "Decorator"],
+    "correctAnswer": "Singleton"
+  },
+  {
+    "question": "¿Qué función de Array en JavaScript se utiliza para recorrer todos los elementos de una matriz y crear un nuevo array basado en el resultado de una función?",
+    "options": ["map", "filter", "reduce", "forEach"],
+    "correctAnswer": "map"
+  },
+  {
+    "question": "¿Qué tipo de almacenamiento es más apropiado para datos que necesitan persistir entre diferentes sesiones de usuario?",
+    "options": ["Local Storage", "Session Storage", "Cookies", "IndexDB"],
+    "correctAnswer": "Local Storage"
+  },
+  {
+    "question": "¿Qué significa REST en el contexto de las API?",
+    "options": ["Representational State Transfer", "Representational Style Transformation", "Relational State Transfer", "Remote State Transfer"],
+    "correctAnswer": "Representational State Transfer"
+  },
+  {
+    "question": "¿Cuál es el propósito del patrón de diseño Observer?",
+    "options": ["Permitir que un objeto notifique a otros objetos sobre cambios de estado", "Proporcionar una interfaz para crear familias de objetos relacionados", "Encapsular una solicitud como un objeto", "Permitir que un objeto cambie su comportamiento cuando su estado interno cambia"],
+    "correctAnswer": "Permitir que un objeto notifique a otros objetos sobre cambios de estado"
+  },
+  {
+    "question": "¿Qué significa SQL?",
+    "options": ["Structured Query Language", "System Query Language", "Sequential Query Language", "Standard Query Language"],
+    "correctAnswer": "Structured Query Language"
+  },
+  {
+    "question": "¿Qué es un 'hook' en React?",
+    "options": ["Una función que permite utilizar el estado y otras características de React en componentes funcionales", "Una técnica para manejar errores en componentes de clase", "Un método para conectar componentes con un servidor backend", "Un patrón de diseño para organizar componentes en React"],
+    "correctAnswer": "Una función que permite utilizar el estado y otras características de React en componentes funcionales"
+  },
+  {
+    "question": "¿Cuál es el ciclo de vida de un componente en React?",
+    "options": ["Mounting, Updating, Unmounting", "Initialization, Rendering, Destroying", "Binding, Listening, Destroying", "Loading, Running, Terminating"],
+    "correctAnswer": "Mounting, Updating, Unmounting"
+  },
+  {
+    "question": "¿Qué tipo de bases de datos es MongoDB?",
+    "options": ["Relacional", "NoSQL", "Red", "Jerárquica"],
+    "correctAnswer": "NoSQL"
+  },
+  {
+    "question": "¿Qué operador en JavaScript verifica tanto el valor como el tipo de una variable?",
+    "options": ["==", "===", "!==", "="],
+    "correctAnswer": "==="
+  },
+  {
+    "question": "¿Cuál es el propósito del patrón de diseño Factory?",
+    "options": ["Proporcionar una interfaz para crear objetos en una superclase, permitiendo a las subclases alterar el tipo de objetos que se crearán", "Permitir que un objeto cambie su comportamiento cuando su estado interno cambia", "Restringir la creación de objetos a un solo objeto", "Encapsular una solicitud como un objeto"],
+    "correctAnswer": "Proporcionar una interfaz para crear objetos en una superclase, permitiendo a las subclases alterar el tipo de objetos que se crearán"
+  },
+  {
+    "question": "¿Qué tipo de estructura de datos utiliza el algoritmo de QuickSort?",
+    "options": ["Pila", "Cola", "Árbol", "División y conquista"],
+    "correctAnswer": "División y conquista"
+  },
+  {
+    "question": "¿Qué método de JavaScript convierte un objeto JSON en una cadena de texto?",
+    "options": ["JSON.parse()", "JSON.stringify()", "JSON.convert()", "JSON.toString()"],
+    "correctAnswer": "JSON.stringify()"
+  },
+  {
+    "question": "¿Qué es el 'estado global' en una aplicación frontend?",
+    "options": ["Una variable que está disponible en todos los componentes", "El estado compartido entre diferentes componentes", "El estado de un componente que afecta a toda la aplicación", "El estado de una aplicación almacenado en la base de datos"],
+    "correctAnswer": "El estado compartido entre diferentes componentes"
+  },
+  {
+    "question": "¿Qué tipo de almacenamiento utiliza Amazon S3 en la nube?",
+    "options": ["Almacenamiento de objetos", "Almacenamiento de archivos", "Almacenamiento de bloques", "Almacenamiento en caché"],
+    "correctAnswer": "Almacenamiento de objetos"
+  },
+  {
+    "question": "¿Qué significa CI/CD en desarrollo de software?",
+    "options": ["Integración continua / Despliegue continuo", "Integración computacional / Despliegue computacional", "Integración creativa / Despliegue creativo", "Integración condicional / Despliegue condicional"],
+    "correctAnswer": "Integración continua / Despliegue continuo"
+  },
+  {
+    "question": "¿Cuál es la principal diferencia entre una función síncrona y una asíncrona en JavaScript?",
+    "options": ["Una función síncrona bloquea la ejecución hasta que se completa, mientras que una función asíncrona no lo hace", "Una función asíncrona es más rápida que una función síncrona", "Una función síncrona es más fácil de depurar que una función asíncrona", "No hay diferencia entre las dos"],
+    "correctAnswer": "Una función síncrona bloquea la ejecución hasta que se completa, mientras que una función asíncrona no lo hace"
+  },
+  {
+    "question": "¿Qué es un 'closure' en JavaScript?",
+    "options": ["Una función que tiene acceso a su ámbito léxico incluso cuando la función se ejecuta fuera de su ámbito original", "Una técnica para ejecutar funciones asíncronas", "Un método para asegurar que las variables no se modifiquen", "Un tipo de estructura de datos en JavaScript"],
+    "correctAnswer": "Una función que tiene acceso a su ámbito léxico incluso cuando la función se ejecuta fuera de su ámbito original"
+  },
+  {
+    "question": "¿Cuál de las siguientes es una herramienta popular de gestión de contenedores?",
+    "options": ["Kubernetes", "Jenkins", "Terraform", "Ansible"],
+    "correctAnswer": "Kubernetes"
+  },
+  {
+    "question": "¿Cuál es el propósito del patrón de diseño Decorator?",
+    "options": ["Añadir comportamiento adicional a un objeto de forma dinámica", "Restringir la creación de objetos a un solo objeto", "Proporcionar una interfaz para crear familias de objetos relacionados", "Permitir que un objeto notifique a otros objetos sobre cambios de estado"],
+    "correctAnswer": "Añadir comportamiento adicional a un objeto de forma dinámica"
+  },
+  {
+    "question": "¿Qué propiedad CSS se utiliza para crear un espacio interior dentro de un elemento?",
+    "options": ["padding", "margin", "border", "content"],
+    "correctAnswer": "padding"
+  },
+  {
+    "question": "¿Qué es una 'promesa' en JavaScript?",
+    "options": ["Un objeto que representa la eventual finalización (o falla) de una operación asíncrona", "Una función que se ejecuta automáticamente al final del código", "Una técnica para manejar excepciones", "Una variable especial que solo puede ser leída una vez"],
+    "correctAnswer": "Un objeto que representa la eventual finalización (o falla) de una operación asíncrona"
+  },
+  {
+    "question": "¿Qué es una 'lambda' en programación?",
+    "options": ["Una función anónima que se puede definir en una línea", "Una técnica para definir variables globales", "Una estructura de datos utilizada para ordenar matrices", "Un tipo de bucle utilizado en programación funcional"],
+    "correctAnswer": "Una función anónima que se puede definir en una línea"
+  },
+  {
+    "question": "¿Qué es el patrón de diseño MVC?",
+    "options": ["Modelo-Vista-Controlador", "Modelo-Vista-Componente", "Módulo-Vista-Controlador", "Modelo-Vista-Configuración"],
+    "correctAnswer": "Modelo-Vista-Controlador"
+  },
+  {
+    "question": "¿Cuál es la diferencia entre 'var', 'let' y 'const' en JavaScript?",
+    "options": ["'var' tiene un ámbito de función, mientras que 'let' y 'const' tienen un ámbito de bloque", "'let' y 'const' son intercambiables, mientras que 'var' es obsoleto", "'const' se utiliza solo para variables globales", "No hay diferencia entre 'var', 'let' y 'const'"],
+    "correctAnswer": "'var' tiene un ámbito de función, mientras que 'let' y 'const' tienen un ámbito de bloque"
+  },
+  {
+    "question": "¿Qué significa CDN en tecnología web?",
+    "options": ["Content Delivery Network", "Cloud Data Network", "Content Data Network", "Cloud Delivery Network"],
+    "correctAnswer": "Content Delivery Network"
+  },
+  {
+    "question": "¿Qué es un 'container' en la nube?",
+    "options": ["Una unidad ligera que empaqueta una aplicación y sus dependencias", "Un tipo de almacenamiento de datos", "Una herramienta para gestionar máquinas virtuales", "Una base de datos en la nube"],
+    "correctAnswer": "Una unidad ligera que empaqueta una aplicación y sus dependencias"
+  },
+  {
+    "question": "¿Qué es el patrón de diseño Strategy?",
+    "options": ["Permitir que un algoritmo cambie de comportamiento durante la ejecución", "Restringir la creación de objetos a un solo objeto", "Permitir que un objeto notifique a otros objetos sobre cambios de estado", "Añadir comportamiento adicional a un objeto de forma dinámica"],
+    "correctAnswer": "Permitir que un algoritmo cambie de comportamiento durante la ejecución"
+  },
+  {
+    "question": "¿Qué es el DOM en el contexto de la programación web?",
+    "options": ["Document Object Model", "Data Object Model", "Document Order Model", "Data Order Model"],
+    "correctAnswer": "Document Object Model"
+  },
+  {
+    "question": "¿Cuál es la principal función de una API?",
+    "options": ["Permitir la comunicación entre diferentes sistemas de software", "Generar código automáticamente", "Optimizar el rendimiento de una aplicación", "Almacenar datos en un servidor"],
+    "correctAnswer": "Permitir la comunicación entre diferentes sistemas de software"
+  },
+  {
+    "question": "¿Cuál es la diferencia entre HTTP y HTTPS?",
+    "options": ["HTTPS es una versión segura de HTTP que utiliza encriptación", "HTTP se utiliza para sitios web estáticos y HTTPS para sitios web dinámicos", "HTTPS es más rápido que HTTP", "No hay diferencia entre HTTP y HTTPS"],
+    "correctAnswer": "HTTPS es una versión segura de HTTP que utiliza encriptación"
+  },
+  {
+    "question": "¿Qué es un 'middleware' en el contexto de desarrollo backend?",
+    "options": ["Una función que se ejecuta entre la solicitud y la respuesta en una aplicación", "Una base de datos en la nube", "Un tipo de API que conecta dos sistemas", "Una herramienta para depurar código"],
+    "correctAnswer": "Una función que se ejecuta entre la solicitud y la respuesta en una aplicación"
+  },
+  {
+    "question": "¿Qué es un 'bucket' en Amazon S3?",
+    "options": ["Un contenedor para almacenar objetos en Amazon S3", "Una máquina virtual en la nube", "Una base de datos en la nube", "Un tipo de contenedor para ejecutar aplicaciones"],
+    "correctAnswer": "Un contenedor para almacenar objetos en Amazon S3"
+  },
+  {
+    "question": "¿Qué es GraphQL?",
+    "options": ["Un lenguaje de consulta para API que permite pedir exactamente los datos que necesitas", "Un sistema de gestión de bases de datos", "Una herramienta para el control de versiones de software", "Un protocolo de red utilizado en la nube"],
+    "correctAnswer": "Un lenguaje de consulta para API que permite pedir exactamente los datos que necesitas"
+  },
+  {
+    "question": "¿Cuál es la principal característica del patrón de diseño Adapter?",
+    "options": ["Permitir que clases con interfaces incompatibles trabajen juntas", "Restringir la creación de objetos a un solo objeto", "Añadir comportamiento adicional a un objeto de forma dinámica", "Proporcionar una interfaz para crear familias de objetos relacionados"],
+    "correctAnswer": "Permitir que clases con interfaces incompatibles trabajen juntas"
+  },
+  {
+    "question": "¿Qué es el patrón de diseño Observer?",
+    "options": ["Permitir que un objeto notifique a otros objetos sobre cambios de estado", "Proporcionar una interfaz para crear familias de objetos relacionados", "Encapsular una solicitud como un objeto", "Permitir que un objeto cambie su comportamiento cuando su estado interno cambia"],
+    "correctAnswer": "Permitir que un objeto notifique a otros objetos sobre cambios de estado"
+  },
+  {
+    "question": "¿Qué herramienta se utiliza comúnmente para el control de versiones en desarrollo de software?",
+    "options": ["Git", "Docker", "Kubernetes", "Jenkins"],
+    "correctAnswer": "Git"
+  },
+  {
+    "question": "¿Qué es un 'polyfill' en JavaScript?",
+    "options": ["Un fragmento de código que proporciona funcionalidades modernas en navegadores antiguos", "Una herramienta para depurar código", "Una técnica para optimizar el rendimiento de una aplicación", "Una función que se ejecuta automáticamente cuando falla el código"],
+    "correctAnswer": "Un fragmento de código que proporciona funcionalidades modernas en navegadores antiguos"
+  },
+  {
+    "question": "¿Qué es un 'contexto' en React?",
+    "options": ["Un método para pasar datos a través de la aplicación sin tener que pasar props manualmente", "Una técnica para gestionar eventos", "Una función para optimizar el rendimiento", "Un tipo de hook en React"],
+    "correctAnswer": "Un método para pasar datos a través de la aplicación sin tener que pasar props manualmente"
+  },
+  {
+    "question": "¿Cuál es la principal ventaja de TypeScript sobre JavaScript?",
+    "options": ["Soporte para tipado estático", "Mejor rendimiento", "Menor tamaño de archivo", "Mayor compatibilidad con navegadores antiguos"],
+    "correctAnswer": "Soporte para tipado estático"
+  },
+  {
+    "question": "¿Qué es el 'Shadow DOM' en desarrollo web?",
+    "options": ["Una parte del DOM que se encapsula para evitar colisiones de estilos", "Una técnica para depurar código", "Una versión del DOM que solo se usa en navegadores antiguos", "Un tipo de base de datos en la nube"],
+    "correctAnswer": "Una parte del DOM que se encapsula para evitar colisiones de estilos"
+  }
+]
