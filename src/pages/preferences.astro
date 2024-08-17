@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ThemeToggle from '../components/ThemeToggle.jsx';
+import { MaxQuestions } from '../components/MaxQuestions';
+---
+
+<Layout title="Preferencias">
+  <h1 class="text-3xl font-bold mb-8 text-center">Preferencias</h1>
+  <div class="max-w-md mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
+    <div class="p-6">
+      <h2 class="text-xl font-bold mb-4">Tema</h2>
+      <div class="flex items-center justify-between">
+        <span>Dark Mode</span>
+        <ThemeToggle client:load />
+      </div>
+    </div>
+  
+    <div class="p-6">
+      <h2 class="text-xl font-bold mb-4">Juego</h2>
+      <div class="flex items-center justify-between">
+        <span>Número de preguntas</span>
+        <MaxQuestions client:load />
+      </div>
+    </div>
+  </div>
+</Layout>

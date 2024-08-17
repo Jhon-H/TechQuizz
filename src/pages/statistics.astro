@@ -1,0 +1,31 @@
+---
+import Layout from '../layouts/Layout.astro'
+
+// Dummy data
+const stats = {
+  gamesPlayed: 10,
+  correctAnswers: 25,
+  incorrectAnswers: 15,
+  successRate: 62.5
+}
+---
+
+<Layout title='Estadísticas'>
+  <h1 class='text-3xl font-bold mb-8 text-center'>Tus estadísticas</h1>
+  <div
+    class='max-w-md mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden'
+  >
+    <div class='p-6'>
+      <p class='mb-4'><strong>Juegos totales:</strong> {stats.gamesPlayed}</p>
+      <p class='mb-4'>
+        <strong>Respuestas correctas:</strong>
+        {stats.correctAnswers}
+      </p>
+      <p class='mb-4'>
+        <strong>Respuestas incorrectas:</strong>
+        {stats.incorrectAnswers}
+      </p>
+      <p><strong>Porcentaje de éxito:</strong> {stats.successRate}%</p>
+    </div>
+  </div>
+</Layout>
