@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'preact/hooks'
+import { updateStatistics } from '../stores/statistic-store'
 
 const timeByQuestion = 30
 
@@ -50,6 +51,7 @@ export default function TriviaGame({ questions, maxQuestions }) {
     setIsPlaying(false)
     setGameOver(true)
     console.log(`Game Over! Your score: ${score}/${selectedQuestions.length}`)
+    updateStatistics(selectedQuestions.length, score)
   }
 
   if (!isPlaying && !gameOver) {
